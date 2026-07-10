@@ -51,6 +51,15 @@
   white-space: pre-wrap;
 }
 
+.about-welcome-text {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2.8rem;
+  color: var(--color-maroon);
+  margin-top: 40px;
+  text-align: right;
+  opacity: 0.9;
+}
+
 .about-right-side {
   flex: 1;
   position: relative;

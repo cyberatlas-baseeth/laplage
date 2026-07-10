@@ -13,6 +13,7 @@ const AboutPage = () => {
             <span className="about-subtitle">{t('aboutPage.subtitle')}</span>
             <h1 className="about-title">{t('aboutPage.title')}</h1>
             <p className="about-paragraph">{t('aboutPage.text')}</p>
+            <p className="about-welcome-text">{t('aboutPage.welcome')}</p>
           </div>
         </div>
         <div className="about-right-side">
