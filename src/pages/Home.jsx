@@ -25,12 +25,12 @@ const Home = () => {
       <section className="middle-section">
         
         <div className="middle-title-row">
-          <div className="title-side left">SIMPLY</div>
+          <div className="title-side left">{t('about.tagline')}</div>
           <div className="title-center">
-            <h2>Made With Love.</h2>
-            <h2>Quality you can taste.</h2>
+            <h2>{t('hero.title')}</h2>
+            <h2>{t('hero.subtitle')}</h2>
           </div>
-          <div className="title-side right">DELICIOUS</div>
+          <div className="title-side right">{t('about.taglineRight', { defaultValue: 'DELICIOUS' })}</div>
         </div>
 
         <div className="middle-images">
@@ -46,7 +46,7 @@ const Home = () => {
         </div>
 
         <div className="middle-action">
-          <a href="https://menu.maisonlaplage.com.tr/menu.pdf" target="_blank" rel="noopener noreferrer" className="btn-menu">View Menu</a>
+          <a href="https://menu.maisonlaplage.com.tr/menu.pdf" target="_blank" rel="noopener noreferrer" className="btn-menu">{t('hero.cta')}</a>
         </div>
 
       </section>
@@ -54,11 +54,8 @@ const Home = () => {
       {/* About Section with Background Image */}
       <section id="about" className="about-bg-section">
         <div className="about-box">
-          <h2>
-            A Fresh and<br />
-            Seasonal Cuisine
-          </h2>
-          <a href="#about" className="btn-menu">About</a>
+          <h2>{t('about.title')}</h2>
+          <a href="#about" className="btn-menu">{t('about.btn')}</a>
         </div>
       </section>
 
