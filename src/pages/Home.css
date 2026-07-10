@@ -15,11 +15,17 @@
 }
 
 .massive-logo-img {
-  width: 100%;
-  max-width: 1200px; /* Adjust maximum size to your preference */
+  width: 60%; /* Shrunk by 40% */
+  max-width: 720px; /* 60% of 1200px */
   height: auto;
   margin: 0 auto;
   display: block;
+}
+
+@media (max-width: 768px) {
+  .massive-logo-img {
+    width: 80%;
+  }
 }
 
 .image-section {
