@@ -20,8 +20,9 @@ const Header = () => {
         
         {/* Navigation Links */}
         <nav className="main-nav">
-          <Link to="/#restaurant">{t('nav.restaurant')}</Link>
-          <Link to="/#reservations">{t('nav.reservations')}</Link>
+          <a href="https://rzrvm.net/bQ2fOfesL6" target="_blank" rel="noopener noreferrer">
+            {t('nav.restaurant')} {t('nav.reservations')}
+          </a>
           <Link to="/#hotel">{t('nav.hotel')}</Link>
           <Link to="/#menu">{t('nav.menu')}</Link>
           <Link to="/#contact">{t('nav.contact')}</Link>
