@@ -80,3 +80,22 @@
   background-color: rgba(49, 10, 20, 0.1);
   font-weight: 500;
 }
+
+@media (max-width: 900px) {
+  .header-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 0 20px;
+    justify-items: center;
+  }
+  .main-nav {
+    grid-column: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .header-actions {
+    grid-column: 1;
+    justify-self: center;
+  }
+}
