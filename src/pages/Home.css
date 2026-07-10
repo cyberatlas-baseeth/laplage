@@ -10,8 +10,8 @@
 }
 
 .massive-logo {
-  font-family: var(--font-serif);
-  font-size: 14vw;
+  font-family: 'Crave Fine', var(--font-serif);
+  font-size: 162px;
   line-height: 1;
   color: var(--color-maroon);
   font-weight: 400;
@@ -21,12 +21,12 @@
 
 .massive-logo .italic-text {
   font-style: italic;
-  padding-right: 2vw; /* Slight optical adjustment for italic */
+  padding-right: 10px; /* Slight optical adjustment for italic */
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .massive-logo {
-    font-size: 180px;
+    font-size: 14vw;
   }
 }
 
