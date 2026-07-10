@@ -1,12 +1,26 @@
 {
-  "header": {
+  "nav": {
     "home": "الرئيسية",
-    "about": "معلومات عنا",
-    "contact": "اتصل بنا",
-    "switchLang": "تغيير اللغة"
+    "restaurant": "مطعم",
+    "reservations": "الحجوزات",
+    "hotel": "فندق",
+    "menu": "القائمة",
+    "contact": "اتصل بنا"
   },
-  "home": {
-    "title": "مرحبًا بكم في ميزون لا بلاج",
-    "description": "نقدم لك أفضل خدمة هنا."
+  "hero": {
+    "title": "مصنوع بكل حب.",
+    "subtitle": "جودة يمكنك تذوقها.",
+    "cta": "عرض القائمة"
+  },
+  "about": {
+    "tagline": "لذيذ",
+    "title": "مطبخ طازج وموسمي",
+    "btn": "معلومات عنا"
+  },
+  "footer": {
+    "addressTitle": "العنوان",
+    "address": "Yalıncak, Deniz 1 Nolu Sk No:5, 61080 Ortahisar/Trabzon",
+    "hoursTitle": "ساعات العمل",
+    "hours": "الاثنين - الأحد: 09 صباحًا - 12 منتصف الليل"
   }
 }

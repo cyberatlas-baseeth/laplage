@@ -1,12 +1,26 @@
 {
-  "header": {
+  "nav": {
     "home": "Anasayfa",
-    "about": "Hakkımızda",
-    "contact": "İletişim",
-    "switchLang": "Dil Değiştir"
+    "restaurant": "Restoran",
+    "reservations": "Rezervasyon",
+    "hotel": "Otel",
+    "menu": "Menü",
+    "contact": "İletişim"
   },
-  "home": {
-    "title": "Maison La Plage'a Hoşgeldiniz",
-    "description": "Burada size en iyi hizmeti sunuyoruz."
+  "hero": {
+    "title": "SADECE Sevgiyle Yapıldı.",
+    "subtitle": "Tadabileceğiniz kalite.",
+    "cta": "Menüyü Gör"
+  },
+  "about": {
+    "tagline": "LEZZETLİ",
+    "title": "Taze ve Mevsimsel Bir Mutfak",
+    "btn": "Hakkımızda"
+  },
+  "footer": {
+    "addressTitle": "ADRES",
+    "address": "Yalıncak, Deniz 1 Nolu Sk No:5, 61080 Ortahisar/Trabzon",
+    "hoursTitle": "ÇALIŞMA SAATLERİ",
+    "hours": "Pzt - Paz: 09:00 - 00:00"
   }
 }

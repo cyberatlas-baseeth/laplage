@@ -1,29 +1,109 @@
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: all 0.4s ease;
+  background-color: transparent;
+  padding: 24px 0;
+}
+
+.header.scrolled {
+  background-color: var(--color-white);
+  padding: 16px 0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.header-container {
+  max-width: 1400px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
-  background-color: #f8f9fa;
-  border-bottom: 1px solid #e9ecef;
+  padding: 0 40px;
 }
 
-.tr-header {
-  background-color: #e3f2fd;
-  border-bottom: 2px solid #2196f3;
+.logo {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-white);
+  letter-spacing: 1px;
 }
 
-.global-header {
-  background-color: #f8f9fa;
+.header.scrolled .logo {
+  color: var(--color-navy);
 }
 
-.header nav a {
-  margin: 0 1rem;
-  text-decoration: none;
-  color: #333;
+.main-nav {
+  display: flex;
+  gap: 32px;
 }
 
-.header .lang-switcher button {
-  margin-left: 0.5rem;
-  padding: 0.25rem 0.5rem;
+.main-nav a {
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--color-white);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.header.scrolled .main-nav a {
+  color: var(--color-navy);
+}
+
+.main-nav a:hover {
+  opacity: 0.7;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.btn-nav {
+  padding: 10px 24px;
+  background-color: transparent;
+  color: var(--color-white);
+  border-color: var(--color-white);
+}
+
+.header.scrolled .btn-nav {
+  background-color: var(--color-navy);
+  color: var(--color-white);
+  border-color: var(--color-navy);
+}
+
+.header.scrolled .btn-nav:hover {
+  background-color: transparent;
+  color: var(--color-navy);
+}
+
+.lang-switcher {
+  display: flex;
+  gap: 8px;
+}
+
+.lang-switcher button {
+  background: none;
+  border: none;
+  color: var(--color-white);
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
   cursor: pointer;
+  opacity: 0.6;
+  transition: opacity var(--transition-speed);
+}
+
+.header.scrolled .lang-switcher button {
+  color: var(--color-navy);
+}
+
+.lang-switcher button.active,
+.lang-switcher button:hover {
+  opacity: 1;
+  font-weight: 500;
 }

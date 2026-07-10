@@ -1,12 +1,26 @@
 {
-  "header": {
+  "nav": {
     "home": "Home",
-    "about": "About Us",
-    "contact": "Contact",
-    "switchLang": "Switch Language"
+    "restaurant": "Restaurant",
+    "reservations": "Reservations",
+    "hotel": "Hotel",
+    "menu": "Menu",
+    "contact": "Contact"
   },
-  "home": {
-    "title": "Welcome to Maison La Plage",
-    "description": "We offer the best service here."
+  "hero": {
+    "title": "SIMPLY Made With Love.",
+    "subtitle": "Quality you can taste.",
+    "cta": "View Menu"
+  },
+  "about": {
+    "tagline": "DELICIOUS",
+    "title": "A Fresh and Seasonal Cuisine",
+    "btn": "About Us"
+  },
+  "footer": {
+    "addressTitle": "ADDRESS",
+    "address": "Yalıncak, Deniz 1 Nolu Sk No:5, 61080 Ortahisar/Trabzon",
+    "hoursTitle": "OPENING HOURS",
+    "hours": "Mon - Sun: 09am - 12pm"
   }
 }
