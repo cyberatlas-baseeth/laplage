@@ -14,75 +14,12 @@
   min-height: 80vh;
 }
 
-.logo-wrapper {
-  position: relative;
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
+.massive-logo-img {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1200px; /* Adjust maximum size to your preference */
+  height: auto;
   margin: 0 auto;
-}
-
-.logo-script {
-  font-family: 'Great Vibes', cursive;
-  font-size: 8vw;
-  color: var(--color-maroon);
-  margin-bottom: -5vw;
-  z-index: 2;
-  position: relative;
-}
-
-.logo-script::before,
-.logo-script::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  width: 15vw;
-  height: 2px;
-  background-color: var(--color-maroon);
-}
-
-.logo-script::before {
-  right: 110%;
-}
-
-.logo-script::after {
-  left: 110%;
-}
-
-.logo-main {
-  font-family: 'Crave Fine', var(--font-serif);
-  font-size: 16vw;
-  line-height: 1;
-  color: var(--color-maroon);
-  font-weight: 400;
-  margin: 0;
-  letter-spacing: 0.5vw;
-  white-space: nowrap;
-  z-index: 1;
-}
-
-.logo-bottom {
-  display: flex;
-  justify-content: space-between;
-  width: 90%;
-  font-family: var(--font-mono);
-  font-size: 1.2vw;
-  color: var(--color-maroon);
-  letter-spacing: 0.5vw;
-  margin-top: 1vw;
-}
-
-@media (min-width: 1200px) {
-  .logo-script { font-size: 96px; margin-bottom: -60px; }
-  .logo-script::before, .logo-script::after { width: 180px; }
-  .logo-main { font-size: 192px; letter-spacing: 6px; }
-  .logo-bottom { font-size: 14px; letter-spacing: 6px; }
-}
-
-@media (max-width: 768px) {
-  .logo-bottom { font-size: 2vw; }
+  display: block;
 }
 
 .image-section {
