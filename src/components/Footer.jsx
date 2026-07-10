@@ -23,7 +23,11 @@ const Footer = () => {
         </div>
         
         <div className="footer-right">
-           {/* Empty div to balance flexbox if using space-between, though we can just use absolute positioning or grid */}
+          <h3 className="footer-address-title">{t('footer.contactTitle', { defaultValue: 'CONTACT' })}</h3>
+          <p className="footer-text">
+            <a href="tel:+905403232444" className="footer-link">0540 323 24 44</a><br />
+            <a href="mailto:info@maisonplage.com.tr" className="footer-link">info@maisonplage.com.tr</a>
+          </p>
         </div>
 
       </div>
