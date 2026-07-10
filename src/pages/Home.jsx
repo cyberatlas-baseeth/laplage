@@ -54,6 +54,17 @@ const Home = () => {
         </div>
 
       </section>
+
+      {/* About Section with Background Image */}
+      <section id="about" className="about-bg-section">
+        <div className="about-box">
+          <h2>
+            A Fresh and<br />
+            Seasonal Cuisine
+          </h2>
+          <a href="#about" className="btn-menu">About</a>
+        </div>
+      </section>
     </main>
   );
 };
