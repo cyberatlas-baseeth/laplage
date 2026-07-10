@@ -22,5 +22,14 @@
     "address": "Yalıncak, Deniz 1 Nolu Sk No:5, 61080 Ortahisar/Trabzon",
     "hoursTitle": "ساعات العمل",
     "hours": "الاثنين - الأحد: 09 صباحًا - 12 منتصف الليل"
+  },
+  "contact": {
+    "title": "نرحب بتعليقاتكم",
+    "firstName": "الاسم الأول *",
+    "lastName": "اسم العائلة *",
+    "email": "البريد الإلكتروني *",
+    "subject": "الموضوع",
+    "message": "اكتب رسالة",
+    "submit": "إرسال"
   }
 }
