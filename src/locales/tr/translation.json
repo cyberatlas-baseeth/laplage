@@ -8,12 +8,13 @@
     "contact": "İletişim"
   },
   "hero": {
-    "title": "SADECE Sevgiyle Yapıldı.",
+    "title": "Sevgiyle Yapıldı.",
     "subtitle": "Tadabileceğiniz kalite.",
     "cta": "Menüyü Gör"
   },
   "about": {
-    "tagline": "LEZZETLİ",
+    "tagline": "SADECE",
+    "taglineRight": "LEZZETLİ",
     "title": "Taze ve Mevsimsel Bir Mutfak",
     "btn": "Hakkımızda"
   },
