@@ -9,7 +9,7 @@ const Home = () => {
     <main className="main-content">
       {/* Top Banner Area with Logo */}
       <section className="top-banner">
-        <img src="/laplage-images/logo.png" alt="Maison La Plage" className="massive-logo-img" />
+        <img src="/laplage-images/logo2.png" alt="Maison La Plage" className="massive-logo-img" />
       </section>
 
       {/* Image / Content Section */}
