@@ -4,30 +4,30 @@
 
 .top-banner {
   width: 100%;
-  padding: 60px 20px 120px;
+  padding: 40px 0 100px;
   text-align: center;
   background-color: var(--color-ivory);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
 }
 
 .massive-logo {
   font-family: 'Crave Fine', var(--font-serif);
-  font-size: 162px;
-  line-height: 1;
+  font-size: 24vw; /* Fills the page width */
+  line-height: 0.85;
   color: var(--color-maroon);
   font-weight: 400;
   margin: 0;
-  letter-spacing: -2px;
+  letter-spacing: -1vw;
+  white-space: nowrap;
 }
 
 .massive-logo .italic-text {
   font-style: italic;
-  padding-right: 10px; /* Slight optical adjustment for italic */
-}
-
-@media (max-width: 1200px) {
-  .massive-logo {
-    font-size: 14vw;
-  }
+  padding-right: 2vw; /* Slight optical adjustment for italic */
 }
 
 .image-section {
