@@ -34,5 +34,10 @@
     "submit": "Gönder",
     "visitTitle": "Bizi Ziyaret Edin",
     "visitText": "Denize yakın konumu, şık atmosferi ve lezzetli menüsüyle La Plage, hem konaklama hem de kaliteli bir yemek deneyimi için misafirlerini bekliyor."
+  },
+  "aboutPage": {
+    "subtitle": "BİZİM HİKAYEMİZ",
+    "title": "Fransız Mutfağının Denizle Buluştuğu Nokta",
+    "text": "Maison La Plage, zanaatkar Fransız mutfak geleneklerini modern bir sahil atmosferiyle harmanlayarak misafirlerine unutulmaz bir gastronomi deneyimi sunuyor. Mevsimlik ve taze malzemelerle hazırlanan menümüz, denizin tazeliğini her lokmada hissetmeniz için tasarlandı."
   }
 }

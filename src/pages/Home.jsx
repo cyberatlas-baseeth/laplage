@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 import './Home.css';
 
 const Home = () => {
@@ -55,7 +56,7 @@ const Home = () => {
       <section id="about" className="about-bg-section">
         <div className="about-box">
           <h2>{t('about.title')}</h2>
-          <a href="#about" className="btn-menu">{t('about.btn')}</a>
+          <Link to="/about" className="btn-menu">{t('about.btn')}</Link>
         </div>
       </section>
 

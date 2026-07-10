@@ -33,5 +33,10 @@
     "submit": "Submit",
     "visitTitle": "Come Visit Us",
     "visitText": "With its location close to the sea, stylish atmosphere and delicious menu, La Plage awaits guests for both accommodation and a fine dining experience."
+  },
+  "aboutPage": {
+    "subtitle": "OUR STORY",
+    "title": "Where French Cuisine Meets the Sea",
+    "text": "Maison La Plage blends artisanal French culinary traditions with a modern coastal atmosphere to offer guests an unforgettable gastronomic experience. Our menu, prepared with seasonal and fresh ingredients, is designed so you can feel the freshness of the sea in every bite."
   }
 }
