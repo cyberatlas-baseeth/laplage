@@ -38,6 +38,13 @@
     "subtitle": "OUR STORY",
     "title": "About Us",
     "text": "Maison La Plage was established in Trabzon to bring together Mediterranean and Italian cuisine with quality ingredients, handmade flavors, and a warm atmosphere.\n\nFrom handmade pastas and raviolis to stone-baked pizzas, from carefully prepared breakfasts to seafood, we prepare every plate with the same care. Our goal is not just to serve food, but to provide our guests with an experience they will fondly remember.\n\nBy bringing together taste, quality, and hospitality, we aim to be one of the new meeting points of Trabzon.",
-    "welcome": "Welcome to Maison La Plage."
+    "welcome": "Welcome to Maison La Plage.",
+    "philosophyTitle": "Our Philosophy",
+    "phil1Title": "Freshness",
+    "phil1Text": "We bring our kitchen to life with the freshest ingredients selected from local markets every morning.",
+    "phil2Title": "Sustainability",
+    "phil2Text": "We support eco-friendly production processes and protect the future of our seas.",
+    "phil3Title": "Artisanship",
+    "phil3Text": "We present artistic plates by blending French culinary traditions with modern techniques."
   }
 }
