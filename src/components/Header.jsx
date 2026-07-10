@@ -30,7 +30,6 @@ const Header = () => {
 
         {/* Right Side Actions */}
         <div className="header-actions">
-          <Link to="/" className="btn-home">{t('nav.home')}</Link>
           <div className="lang-switcher">
             <button 
               onClick={() => changeLanguage('tr')} 
