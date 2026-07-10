@@ -25,18 +25,34 @@ const Home = () => {
         </div>
       </section>
 
-      {/* About Section */}
-      <section id="about" className="about-section">
-        <div className="about-container">
-          <div className="about-content">
-            <span className="tagline">{t('about.tagline')}</span>
-            <h2 className="section-title">{t('about.title')}</h2>
-            <p className="section-text">
-              Experience the perfect blend of seaside relaxation and culinary excellence.
-              Our chefs use only the freshest seasonal ingredients to craft dishes that delight the senses.
-            </p>
+      {/* Middle Section */}
+      <section className="middle-section">
+        
+        <div className="middle-title-row">
+          <div className="title-side left">SIMPLY</div>
+          <div className="title-center">
+            <h2>Made With Love.</h2>
+            <h2>Quality you can taste.</h2>
+          </div>
+          <div className="title-side right">DELICIOUS</div>
+        </div>
+
+        <div className="middle-images">
+          <div className="img-wrapper">
+            <img src="/laplage-images/Chef Preparing Mushrooms.avif" alt="Chef Preparing Mushrooms" />
+          </div>
+          <div className="img-wrapper">
+            <img src="/laplage-images/Plated Dumplings.avif" alt="Plated Dumplings" />
+          </div>
+          <div className="img-wrapper">
+            <img src="/laplage-images/Waiter Serving Food.avif" alt="Waiter Serving Food" />
           </div>
         </div>
+
+        <div className="middle-action">
+          <a href="#menu" className="btn-menu">View Menu</a>
+        </div>
+
       </section>
     </main>
   );
