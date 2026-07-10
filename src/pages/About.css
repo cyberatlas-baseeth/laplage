@@ -133,7 +133,7 @@
   justify-content: center;
   width: 80px;
   height: 80px;
-  background-color: #fffdf5; /* Slightly brighter ivory for contrast */
+  background-color: transparent; /* Match background */
   border-bottom: 4px solid var(--color-maroon);
   margin-bottom: 30px;
   color: var(--color-maroon);
