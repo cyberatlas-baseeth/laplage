@@ -46,7 +46,7 @@ const Home = () => {
         </div>
 
         <div className="middle-action">
-          <a href="#menu" className="btn-menu">View Menu</a>
+          <a href="https://menu.maisonlaplage.com.tr/menu.pdf" target="_blank" rel="noopener noreferrer" className="btn-menu">View Menu</a>
         </div>
 
       </section>
