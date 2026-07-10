@@ -54,6 +54,12 @@ const Header = () => {
             >
               EN
             </button>
+            <button 
+              onClick={() => changeLanguage('ar')} 
+              className={i18n.language === 'ar' ? 'active' : ''}
+            >
+              AR
+            </button>
           </div>
         </div>
 
