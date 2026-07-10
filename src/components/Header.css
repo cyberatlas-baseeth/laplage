@@ -15,12 +15,12 @@
 .main-nav {
   grid-column: 2;
   display: flex;
-  gap: 30px;
+  gap: 60px; /* Increased spacing */
 }
 
 .main-nav a {
   font-family: var(--font-mono);
-  font-size: 0.9rem;
+  font-size: 1.1rem; /* Increased font size */
   font-weight: 400;
   color: var(--color-maroon);
   letter-spacing: 0.5px;
