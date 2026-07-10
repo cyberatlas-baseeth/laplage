@@ -9,11 +9,14 @@ const Home = () => {
     <main className="main-content">
       {/* Top Banner Area with Logo */}
       <section className="top-banner">
-        <h1 className="massive-logo">
-          <span className="italic-text">Maison</span>
-          <br />
-          <span>La Plage</span>
-        </h1>
+        <div className="logo-wrapper">
+          <div className="logo-script">maison</div>
+          <h1 className="logo-main">LA PLAGE</h1>
+          <div className="logo-bottom">
+            <span>HOTEL & RESTAURANT</span>
+            <span>EST. 2026</span>
+          </div>
+        </div>
       </section>
 
       {/* Image / Content Section */}
