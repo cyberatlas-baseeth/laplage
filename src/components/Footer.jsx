@@ -18,8 +18,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-center">
-          {/* Note: Hardcoding Opening Hours title to match the serif style case, or using a specific class */}
-          <h2 className="footer-hours-title">Opening Hours</h2>
+          <h2 className="footer-hours-title">{t('footer.hoursTitle')}</h2>
           <p className="footer-text">{t('footer.hours')}</p>
         </div>
         
