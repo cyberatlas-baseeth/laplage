@@ -17,7 +17,7 @@ const AboutPage = () => {
           </div>
         </div>
         <div className="about-right-side">
-          <img src="/laplage-images/sip.jpg" alt="Maison La Plage Interior" />
+          <img src="/laplage-images/sip.jpg" alt="Maison La Plage Interior" loading="lazy" />
         </div>
       </div>
 

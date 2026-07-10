@@ -36,13 +36,13 @@ const Home = () => {
 
         <div className="middle-images">
           <div className="img-wrapper">
-            <img src="/laplage-images/Chef Preparing Mushrooms.avif" alt="Chef Preparing Mushrooms" />
+            <img src="/laplage-images/Chef Preparing Mushrooms.avif" alt="Chef Preparing Mushrooms" loading="lazy" />
           </div>
           <div className="img-wrapper">
-            <img src="/laplage-images/Plated Dumplings.avif" alt="Plated Dumplings" />
+            <img src="/laplage-images/Plated Dumplings.avif" alt="Plated Dumplings" loading="lazy" />
           </div>
           <div className="img-wrapper">
-            <img src="/laplage-images/Waiter Serving Food.avif" alt="Waiter Serving Food" />
+            <img src="/laplage-images/Waiter Serving Food.avif" alt="Waiter Serving Food" loading="lazy" />
           </div>
         </div>
 
