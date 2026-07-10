@@ -1,0 +1,12 @@
+{
+  "header": {
+    "home": "Anasayfa",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "switchLang": "Dil Değiştir"
+  },
+  "home": {
+    "title": "Maison La Plage'a Hoşgeldiniz",
+    "description": "Burada size en iyi hizmeti sunuyoruz."
+  }
+}

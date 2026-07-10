@@ -1,0 +1,12 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About Us",
+    "contact": "Contact",
+    "switchLang": "Switch Language"
+  },
+  "home": {
+    "title": "Welcome to Maison La Plage",
+    "description": "We offer the best service here."
+  }
+}
