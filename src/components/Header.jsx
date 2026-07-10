@@ -26,6 +26,7 @@ const Header = () => {
             {t('nav.restaurant')} {t('nav.reservations')}
           </a>
           <Link to="/#hotel">{t('nav.hotel')}</Link>
+          <Link to="/about">{t('nav.about')}</Link>
           <a href="https://menu.maisonlaplage.com.tr/menu.pdf" target="_blank" rel="noopener noreferrer">{t('nav.menu')}</a>
           <Link to="/contact">{t('nav.contact')}</Link>
         </nav>
