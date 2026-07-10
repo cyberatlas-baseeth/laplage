@@ -41,6 +41,28 @@ const Contact = () => {
           </form>
         </div>
       </section>
+
+      {/* Visit Us Map Section */}
+      <section className="visit-section">
+        <div className="visit-content">
+          <div className="visit-text">
+            <h2>{t('contact.visitTitle')}</h2>
+            <p>{t('contact.visitText')}</p>
+          </div>
+          <div className="visit-map">
+            <iframe 
+              src="https://maps.google.com/maps?q=Maison%20La%20Plage%20Yal%C4%B1ncak%20Trabzon&t=&z=14&ie=UTF8&iwloc=&output=embed" 
+              width="100%" 
+              height="100%" 
+              style={{ border: 0 }} 
+              allowFullScreen="" 
+              loading="lazy" 
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Maison La Plage Map"
+            ></iframe>
+          </div>
+        </div>
+      </section>
     </main>
   );
 };

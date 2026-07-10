@@ -30,6 +30,8 @@
     "email": "Email *",
     "subject": "Subject",
     "message": "Write a message",
-    "submit": "Submit"
+    "submit": "Submit",
+    "visitTitle": "Come Visit Us",
+    "visitText": "With its location close to the sea, stylish atmosphere and delicious menu, La Plage awaits guests for both accommodation and a fine dining experience."
   }
 }

@@ -108,3 +108,61 @@
     gap: 30px;
   }
 }
+
+/* Visit Us Map Section */
+.visit-section {
+  width: 100%;
+  background-color: var(--color-ivory);
+  padding: 80px 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.visit-content {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  gap: 60px;
+  align-items: center;
+}
+
+.visit-text {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.visit-text h2 {
+  font-family: var(--font-serif);
+  font-size: 3.5rem;
+  color: var(--color-maroon);
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.visit-text p {
+  font-family: var(--font-sans);
+  font-size: 1.1rem;
+  color: var(--color-gray);
+  line-height: 1.6;
+}
+
+.visit-map {
+  flex: 1;
+  height: 450px;
+  background-color: #e5e3df; /* Map placeholder background */
+}
+
+@media (max-width: 900px) {
+  .visit-content {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .visit-text {
+    padding-right: 0;
+    text-align: center;
+  }
+  .visit-map {
+    width: 100%;
+    height: 350px;
+  }
+}
