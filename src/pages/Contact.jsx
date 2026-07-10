@@ -51,7 +51,7 @@ const Contact = () => {
           </div>
           <div className="visit-map">
             <iframe 
-              src="https://maps.google.com/maps?q=Maison%20La%20Plage%20Yal%C4%B1ncak%20Trabzon&t=&z=14&ie=UTF8&iwloc=&output=embed" 
+              src="https://maps.google.com/maps?q=Maison%20La%20Plage%20Yal%C4%B1ncak%20Trabzon&t=&z=16&ie=UTF8&iwloc=&output=embed" 
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 
