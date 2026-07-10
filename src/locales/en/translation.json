@@ -8,12 +8,13 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "SIMPLY Made With Love.",
+    "title": "Made with love.",
     "subtitle": "Quality you can taste.",
     "cta": "View Menu"
   },
   "about": {
-    "tagline": "DELICIOUS",
+    "tagline": "simply",
+    "taglineRight": "delicious",
     "title": "A Fresh and Seasonal Cuisine",
     "btn": "About Us"
   },
