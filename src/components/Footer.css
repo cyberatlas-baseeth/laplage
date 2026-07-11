@@ -25,6 +25,7 @@
   text-transform: uppercase;
   font-weight: 400;
   margin-bottom: 20px;
+  color: var(--color-ivory);
 }
 
 .footer-text {
