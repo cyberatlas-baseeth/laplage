@@ -1,0 +1,67 @@
+import React from 'react';
+import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
+import './Home.css';
+
+const Home = () => {
+  const { t } = useTranslation();
+
+  return (
+    <main className="main-content">
+      {/* Top Banner Area with Logo */}
+      <section className="top-banner">
+        <img src="/laplage-images/logo2.png" alt="Maison La Plage" className="massive-logo-img" />
+      </section>
+
+      {/* Image / Content Section */}
+      <section className="image-section">
+        {/* Placeholder for the table/food image from screenshot */}
+        <div className="image-wrapper">
+          {/* We will add a decorative wave SVG here later if needed */}
+          <img src="https://images.unsplash.com/photo-1544148103-0773bf10d330?q=80&w=2070&auto=format&fit=crop" alt="Maison La Plage" className="main-image" />
+        </div>
+      </section>
+
+      {/* Middle Section */}
+      <section className="middle-section">
+        
+        <div className="middle-title-row">
+          <div className="title-side left">{t('about.tagline')}</div>
+          <div className="title-center">
+            <h2>{t('hero.title')}</h2>
+            <h2>{t('hero.subtitle')}</h2>
+          </div>
+          <div className="title-side right">{t('about.taglineRight', { defaultValue: 'DELICIOUS' })}</div>
+        </div>
+
+        <div className="middle-images">
+          <div className="img-wrapper">
+            <img src="/laplage-images/Chef Preparing Mushrooms.avif" alt="Chef Preparing Mushrooms" loading="lazy" />
+          </div>
+          <div className="img-wrapper">
+            <img src="/laplage-images/Plated Dumplings.avif" alt="Plated Dumplings" loading="lazy" />
+          </div>
+          <div className="img-wrapper">
+            <img src="/laplage-images/Waiter Serving Food.avif" alt="Waiter Serving Food" loading="lazy" />
+          </div>
+        </div>
+
+        <div className="middle-action">
+          <a href="https://menu.maisonlaplage.com.tr/menu.pdf" target="_blank" rel="noopener noreferrer" className="btn-menu">{t('hero.cta')}</a>
+        </div>
+
+      </section>
+
+      {/* About Section with Background Image */}
+      <section id="about" className="about-bg-section">
+        <div className="about-box">
+          <h2>{t('about.title')}</h2>
+          <Link to="/about" className="btn-menu">{t('about.btn')}</Link>
+        </div>
+      </section>
+
+    </main>
+  );
+};
+
+export default Home;

@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "home": "Anasayfa",
+    "restaurant": "Restoran",
+    "reservations": "Rezervasyon",
+    "hotel": "Otel",
+    "menu": "Menü",
+    "contact": "İletişim",
+    "about": "Hakkımızda"
+  },
+  "hero": {
+    "title": "Sevgiyle Yapıldı.",
+    "subtitle": "Tadabileceğiniz kalite.",
+    "cta": "Menüyü Gör"
+  },
+  "about": {
+    "tagline": "SADECE",
+    "taglineRight": "LEZZETLİ",
+    "title": "Taze ve Mevsimsel Bir Mutfak",
+    "btn": "Hakkımızda"
+  },
+  "footer": {
+    "addressTitle": "ADRES",
+    "address": "Yalıncak, Deniz 1 Nolu Sk No:5, 61080 Ortahisar/Trabzon",
+    "hoursTitle": "Açılış Saatleri",
+    "hours": "Pzt - Paz: 09:00 - 00:00",
+    "contactTitle": "İLETİŞİM"
+  },
+  "contact": {
+    "title": "Geri bildirimlerinizi bekliyoruz",
+    "firstName": "Ad *",
+    "lastName": "Soyad *",
+    "email": "E-posta *",
+    "subject": "Konu",
+    "message": "Mesajınız",
+    "submit": "Gönder",
+    "visitTitle": "Bizi Ziyaret Edin",
+    "visitText": "Denize yakın konumu, şık atmosferi ve lezzetli menüsüyle La Plage, hem konaklama hem de kaliteli bir yemek deneyimi için misafirlerini bekliyor."
+  },
+  "aboutPage": {
+    "subtitle": "BİZİM HİKAYEMİZ",
+    "title": "Hakkımızda",
+    "text": "Maison La Plage, Trabzon'da Akdeniz ve İtalyan mutfağını kaliteli malzemeler, el yapımı lezzetler ve sıcak bir atmosferle buluşturmak amacıyla kuruldu.\n\nEl yapımı makarna ve raviolilerden taş fırın pizzalara, özenle hazırlanan kahvaltılardan deniz ürünlerine kadar her tabağı aynı özenle hazırlıyoruz. Amacımız yalnızca yemek sunmak değil; misafirlerimize keyifle hatırlayacakları bir deneyim yaşatmak.\n\nLezzet, kalite ve misafirperverliği bir araya getirerek Trabzon'un yeni buluşma noktalarından biri olmayı hedefliyoruz.",
+    "welcome": "Maison La Plage'ye hoş geldiniz.",
+    "philosophyTitle": "Felsefemiz",
+    "phil1Title": "Tazelik",
+    "phil1Text": "Her sabah yerel pazarlardan seçilen en taze malzemelerle mutfağımızı canlandırıyoruz.",
+    "phil2Title": "Sürdürülebilirlik",
+    "phil2Text": "Doğaya saygılı üretim süreçlerini destekliyor, denizlerimizin geleceğini koruyoruz.",
+    "phil3Title": "Zanaatkarlık",
+    "phil3Text": "İtalyan mutfak geleneklerini modern tekniklerle harmanlayarak sanatsal tabaklar sunuyoruz."
+  }
+}

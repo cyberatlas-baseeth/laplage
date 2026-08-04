@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "home": "Home",
+    "restaurant": "Restaurant",
+    "reservations": "Reservations",
+    "hotel": "Hotel",
+    "menu": "Menu",
+    "contact": "Contact",
+    "about": "About"
+  },
+  "hero": {
+    "title": "Made with love.",
+    "subtitle": "Quality you can taste.",
+    "cta": "View Menu"
+  },
+  "about": {
+    "tagline": "simply",
+    "taglineRight": "delicious",
+    "title": "A Fresh and Seasonal Cuisine",
+    "btn": "About Us"
+  },
+  "footer": {
+    "addressTitle": "ADDRESS",
+    "address": "Yalıncak, Deniz 1 Nolu Sk No:5, 61080 Ortahisar/Trabzon",
+    "hoursTitle": "OPENING HOURS",
+    "hours": "Mon - Sun: 09am - 12pm",
+    "contactTitle": "CONTACT"
+  },
+  "contact": {
+    "title": "We welcome your feedback",
+    "firstName": "First name *",
+    "lastName": "Last name *",
+    "email": "Email *",
+    "subject": "Subject",
+    "message": "Write a message",
+    "submit": "Submit",
+    "visitTitle": "Come Visit Us",
+    "visitText": "With its location close to the sea, stylish atmosphere and delicious menu, La Plage awaits guests for both accommodation and a fine dining experience."
+  },
+  "aboutPage": {
+    "subtitle": "OUR STORY",
+    "title": "About Us",
+    "text": "Maison La Plage was established in Trabzon to bring together Mediterranean and Italian cuisine with quality ingredients, handmade flavors, and a warm atmosphere.\n\nFrom handmade pastas and raviolis to stone-baked pizzas, from carefully prepared breakfasts to seafood, we prepare every plate with the same care. Our goal is not just to serve food, but to provide our guests with an experience they will fondly remember.\n\nBy bringing together taste, quality, and hospitality, we aim to be one of the new meeting points of Trabzon.",
+    "welcome": "Welcome to Maison La Plage.",
+    "philosophyTitle": "Our Philosophy",
+    "phil1Title": "Freshness",
+    "phil1Text": "We bring our kitchen to life with the freshest ingredients selected from local markets every morning.",
+    "phil2Title": "Sustainability",
+    "phil2Text": "We support eco-friendly production processes and protect the future of our seas.",
+    "phil3Title": "Artisanship",
+    "phil3Text": "We present artistic plates by blending Italian culinary traditions with modern techniques."
+  }
+}
