@@ -26,7 +26,7 @@ const Footer = () => {
           <h3 className="footer-address-title">{t('footer.contactTitle', { defaultValue: 'CONTACT' })}</h3>
           <p className="footer-text">
             <a href="tel:+905403232444" className="footer-link"><span dir="ltr">0540 323 24 44</span></a><br />
-            <a href="mailto:info@maisonplage.com.tr" className="footer-link">info@maisonplage.com.tr</a>
+            <a href="mailto:iletisim@maisonlaplage.com.tr" className="footer-link">iletisim@maisonlaplage.com.tr</a>
           </p>
         </div>
 
