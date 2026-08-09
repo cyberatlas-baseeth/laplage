@@ -25,7 +25,9 @@ const Header = () => {
           <a href="https://rzrvm.net/bQ2fOfesL6" target="_blank" rel="noopener noreferrer">
             {t('nav.restaurant')} {t('nav.reservations')}
           </a>
-          <Link to="/#hotel">{t('nav.hotel')}</Link>
+          <a href="https://maison-lapilage.rezervasyonal.com/?Checkin=2026-08-11&Checkout=2026-08-12&Adult=2&child=0&language=tr&currency=TRY&tenantId=36551&ChildAges=" target="_blank" rel="noopener noreferrer">
+            {t('nav.hotel')}
+          </a>
           <Link to="/about">{t('nav.about')}</Link>
           <a href="https://menu.maisonlaplage.com.tr/menu.pdf" target="_blank" rel="noopener noreferrer">{t('nav.menu')}</a>
           <Link to="/contact">{t('nav.contact')}</Link>
