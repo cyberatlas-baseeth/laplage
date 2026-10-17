@@ -10,7 +10,14 @@ const Home = () => {
     <main className="main-content">
       {/* Top Banner Area with Logo */}
       <section className="top-banner">
-        <img src="/laplage-images/logo2.png" alt="Maison La Plage" className="massive-logo-img" />
+        <h1 className="sr-only">
+          Maison La Plage Trabzon | Yalıncak Ortahisar Denize Sıfır Restoran, Kafe, Kahvaltı, Taş Fırın Pizza & Butik Otel
+        </h1>
+        <img
+          src="/laplage-images/logo2.png"
+          alt="Maison La Plage Trabzon - Yalıncak Denize Sıfır Restoran, Kafe ve Butik Otel"
+          className="massive-logo-img"
+        />
       </section>
 
       {/* Image / Content Section */}
@@ -18,7 +25,11 @@ const Home = () => {
         {/* Placeholder for the table/food image from screenshot */}
         <div className="image-wrapper">
           {/* We will add a decorative wave SVG here later if needed */}
-          <img src="https://images.unsplash.com/photo-1544148103-0773bf10d330?q=80&w=2070&auto=format&fit=crop" alt="Maison La Plage" className="main-image" />
+          <img
+            src="https://images.unsplash.com/photo-1544148103-0773bf10d330?q=80&w=2070&auto=format&fit=crop"
+            alt="Maison La Plage Ortahisar Trabzon Sahil Restoranı, Akdeniz ve İtalyan Mutfağı"
+            className="main-image"
+          />
         </div>
       </section>
 
@@ -36,13 +47,25 @@ const Home = () => {
 
         <div className="middle-images">
           <div className="img-wrapper">
-            <img src="/laplage-images/Chef Preparing Mushrooms.avif" alt="Chef Preparing Mushrooms" loading="lazy" />
+            <img
+              src="/laplage-images/Chef Preparing Mushrooms.avif"
+              alt="Maison La Plage Trabzon İtalyan Mutfağı - Taze Malzemeler ve El Yapımı Lezzetler"
+              loading="lazy"
+            />
           </div>
           <div className="img-wrapper">
-            <img src="/laplage-images/Plated Dumplings.avif" alt="Plated Dumplings" loading="lazy" />
+            <img
+              src="/laplage-images/Plated Dumplings.avif"
+              alt="Maison La Plage El Yapımı Ravioli, Tortellini, Makarna ve Taş Fırın Napoliten Pizza"
+              loading="lazy"
+            />
           </div>
           <div className="img-wrapper">
-            <img src="/laplage-images/Waiter Serving Food.avif" alt="Waiter Serving Food" loading="lazy" />
+            <img
+              src="/laplage-images/Waiter Serving Food.avif"
+              alt="Maison La Plage Yalıncak Deniz Manzaralı Serpme Kahvaltı, Steak ve Şık Restoran"
+              loading="lazy"
+            />
           </div>
         </div>
 

@@ -39,6 +39,9 @@ const Contact = () => {
 
   return (
     <main className="main-content" style={{ marginTop: '80px' }}>
+      <h1 className="sr-only">
+        Maison La Plage Trabzon İletişim, Adres ve Rezervasyon – Yalıncak, Ortahisar
+      </h1>
       <section className="contact-bg-section">
         <div className="contact-box">
           <h2>{t('contact.title')}</h2>

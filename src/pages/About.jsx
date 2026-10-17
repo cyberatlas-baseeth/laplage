@@ -17,7 +17,11 @@ const AboutPage = () => {
           </div>
         </div>
         <div className="about-right-side">
-          <img src="/laplage-images/sip.jpg" alt="Maison La Plage Interior" loading="lazy" />
+          <img
+            src="/laplage-images/sip.jpg"
+            alt="Maison La Plage Trabzon Yalıncak Sahil Restoranı, Kafe ve Butik Otel Atmosferi"
+            loading="lazy"
+          />
         </div>
       </div>
 
