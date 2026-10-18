@@ -71,6 +71,7 @@ const Home = () => {
 
         <div className="middle-action">
           <a href="https://menu.maisonlaplage.com.tr/menu.pdf" target="_blank" rel="noopener noreferrer" className="btn-menu">{t('hero.cta')}</a>
+          <Link to="/menu" className="btn-menu btn-menu-secondary">{t('hero.menuPageBtn')}</Link>
         </div>
 
       </section>
@@ -80,6 +81,105 @@ const Home = () => {
         <div className="about-box">
           <h2>{t('about.title')}</h2>
           <Link to="/about" className="btn-menu">{t('about.btn')}</Link>
+        </div>
+      </section>
+
+      {/* Featured Experiences: Breakfast, Pizza/Pasta, Fine Dining, Boutique Hotel */}
+      <section id="experiences" className="seo-experiences-section">
+        <div className="seo-section-container">
+          <span className="seo-section-kicker">{t('experiences.kicker')}</span>
+          <h2 className="seo-section-title">{t('experiences.title')}</h2>
+          <p className="seo-section-subtitle">{t('experiences.subtitle')}</p>
+
+          <div className="experiences-grid">
+            <article className="experience-card">
+              <h3>{t('experiences.card1Title')}</h3>
+              <p>{t('experiences.card1Text')}</p>
+              <Link to="/menu" className="card-inline-link">{t('experiences.menuLink')} &rarr;</Link>
+            </article>
+
+            <article className="experience-card">
+              <h3>{t('experiences.card2Title')}</h3>
+              <p>{t('experiences.card2Text')}</p>
+              <Link to="/menu" className="card-inline-link">{t('experiences.menuLink')} &rarr;</Link>
+            </article>
+
+            <article className="experience-card">
+              <h3>{t('experiences.card3Title')}</h3>
+              <p>{t('experiences.card3Text')}</p>
+              <a href="https://rzrvm.net/bQ2fOfesL6" target="_blank" rel="noopener noreferrer" className="card-inline-link">
+                {t('experiences.reserveRestaurantLink')} &rarr;
+              </a>
+            </article>
+
+            <article className="experience-card">
+              <h3>{t('experiences.card4Title')}</h3>
+              <p>{t('experiences.card4Text')}</p>
+              <a
+                href="https://maison-lapilage.rezervasyonal.com/?Checkin=2026-08-11&Checkout=2026-08-12&Adult=2&child=0&language=tr&currency=TRY&tenantId=36551&ChildAges="
+                target="_blank"
+                rel="noopener noreferrer"
+                className="card-inline-link"
+              >
+                {t('experiences.reserveHotelLink')} &rarr;
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      {/* Guest Reviews Section */}
+      <section id="reviews" className="seo-reviews-section">
+        <div className="seo-section-container">
+          <span className="seo-section-kicker">{t('reviews.kicker')}</span>
+          <h2 className="seo-section-title">{t('reviews.title')}</h2>
+
+          <div className="reviews-grid">
+            <blockquote className="review-card">
+              <div className="review-stars" aria-label="5 / 5">★★★★★</div>
+              <p className="review-text">“{t('reviews.rev1Text')}”</p>
+              <footer className="review-author">— {t('reviews.rev1Author')}</footer>
+            </blockquote>
+
+            <blockquote className="review-card">
+              <div className="review-stars" aria-label="5 / 5">★★★★★</div>
+              <p className="review-text">“{t('reviews.rev2Text')}”</p>
+              <footer className="review-author">— {t('reviews.rev2Author')}</footer>
+            </blockquote>
+
+            <blockquote className="review-card">
+              <div className="review-stars" aria-label="5 / 5">★★★★★</div>
+              <p className="review-text">“{t('reviews.rev3Text')}”</p>
+              <footer className="review-author">— {t('reviews.rev3Author')}</footer>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section id="faq" className="seo-faq-section">
+        <div className="seo-section-container seo-faq-container">
+          <span className="seo-section-kicker">{t('faq.kicker')}</span>
+          <h2 className="seo-section-title">{t('faq.title')}</h2>
+
+          <div className="faq-list">
+            <details className="faq-item" open>
+              <summary>{t('faq.q1')}</summary>
+              <p>{t('faq.a1')}</p>
+            </details>
+            <details className="faq-item">
+              <summary>{t('faq.q2')}</summary>
+              <p>{t('faq.a2')}</p>
+            </details>
+            <details className="faq-item">
+              <summary>{t('faq.q3')}</summary>
+              <p>{t('faq.a3')}</p>
+            </details>
+            <details className="faq-item">
+              <summary>{t('faq.q4')}</summary>
+              <p>{t('faq.a4')}</p>
+            </details>
+          </div>
         </div>
       </section>
 

@@ -12,6 +12,12 @@ const SEO_CONFIG = {
         'Trabzon Ortahisar Yalıncak sahilinde denize sıfır restoran, kafe ve butik otel. Serpme kahvaltı, taş fırın Napoliten pizza, el yapımı ravioli & makarna, steak ve deniz ürünleri. Menü ve online rezervasyon.',
       canonicalPath: '/',
     },
+    '/menu': {
+      title: 'Maison La Plage Trabzon Menü | Kahvaltı, Taş Fırın Pizza, Ravioli, Steak & Tatlılar',
+      description:
+        'Maison La Plage Trabzon güncel menü: Yalıncak deniz manzaralı serpme kahvaltı, taş fırın Napoliten & Margherita pizza, el yapımı ravioli & tortellini, steak frites, deniz ürünleri ve tatlılar.',
+      canonicalPath: '/menu',
+    },
     '/about': {
       title: 'Hakkımızda | Maison La Plage Trabzon - İtalyan & Akdeniz Mutfağı ve Otel',
       description:
@@ -31,6 +37,12 @@ const SEO_CONFIG = {
       description:
         'Seafront Italian & Mediterranean restaurant, cafe, and boutique hotel in Yalıncak, Ortahisar, Trabzon. Breakfast by the beach, stone-baked pizza, handmade ravioli & pasta, steak, and seafood.',
       canonicalPath: '/',
+    },
+    '/menu': {
+      title: 'Maison La Plage Trabzon Menu | Breakfast, Neapolitan Pizza, Ravioli, Steak & Seafood',
+      description:
+        'Explore the Maison La Plage Trabzon menu: sea-view Turkish & world breakfast, stone-baked Margherita & Neapolitan pizza, handmade ravioli & tortellini, steak frites, fresh seafood, and desserts.',
+      canonicalPath: '/menu',
     },
     '/about': {
       title: 'About Us | Maison La Plage Trabzon - Italian & Mediterranean Fine Dining',
@@ -52,6 +64,12 @@ const SEO_CONFIG = {
         'مطعم إيطالي ومتوسطي وكافيه وفندق بوتيك بإطلالة مباشرة على البحر في يالنجاك، أورتاهيسار، طرابزون. إفطار على البحر، بيتزا على الحجر، معكرونة ورافيولي يدوية، ستيك ومأكولات بحرية.',
       canonicalPath: '/',
     },
+    '/menu': {
+      title: 'قائمة الطعام Maison La Plage طرابزون | إفطار، بيتزا على الحجر، رافيولي وستيك',
+      description:
+        'تصفح قائمة طعام Maison La Plage طرابزون: إفطار بإطلالة بحرية في يالنجاك، بيتزا نابولي ومارغريتا على الحجر، معكرونة ورافيولي يدوية، ستيك ومأكولات بحرية وحلويات إيطالية.',
+      canonicalPath: '/menu',
+    },
     '/about': {
       title: 'معلومات عنا | Maison La Plage طرابزون - مطعم وكافيه وفندق على البحر',
       description:
@@ -68,8 +86,10 @@ const SEO_CONFIG = {
 };
 
 const normalizeRouteKey = (pathname) => {
-  if (pathname === '/about' || pathname === '/hakkinda') return '/about';
-  if (pathname === '/contact' || pathname === '/iletisim') return '/contact';
+  const decoded = decodeURIComponent(pathname).toLowerCase();
+  if (decoded === '/menu' || decoded === '/menü') return '/menu';
+  if (decoded === '/about' || decoded === '/hakkinda') return '/about';
+  if (decoded === '/contact' || decoded === '/iletisim') return '/contact';
   return '/';
 };
 

@@ -7,6 +7,7 @@ import SEOManager from './components/SEOManager';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import AboutPage from './pages/About';
+import MenuPage from './pages/Menu';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/menu" element={<MenuPage />} />
+          <Route path="/menü" element={<MenuPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/hakkinda" element={<AboutPage />} />
           <Route path="/contact" element={<Contact />} />

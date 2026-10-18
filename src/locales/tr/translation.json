@@ -11,13 +11,102 @@
   "hero": {
     "title": "Sevgiyle Yapıldı.",
     "subtitle": "Tadabileceğiniz kalite.",
-    "cta": "Menüyü Gör"
+    "cta": "PDF Menüyü Gör",
+    "menuPageBtn": "İmza Lezzetler & Menü"
   },
   "about": {
     "tagline": "SADECE",
     "taglineRight": "LEZZETLİ",
     "title": "Taze ve Mevsimsel Bir Mutfak",
     "btn": "Hakkımızda"
+  },
+  "experiences": {
+    "kicker": "TRABZON YALINCAK SAHİLİNDE",
+    "title": "Restoran, Kafe & Butik Otel Deneyimi",
+    "subtitle": "Trabzon Ortahisar Yalıncak sahilinde denize sıfır konumda; sabah kahvaltısından akşam yemeğine, İtalyan mutfağından konforlu konaklamaya uzanan seçkin bir atmosfer.",
+    "card1Title": "Denize Sıfır Serpme Kahvaltı & Kafe",
+    "card1Text": "Yalıncak plajı ve Karadeniz manzarası eşliğinde zengin serpme kahvaltı, sahan lezzetleri, taze kruvasanlar, kahvaltı kaseleri ve üçüncü nesil kahve çeşitleri.",
+    "card2Title": "Taş Fırın Pizza & El Yapımı Ravioli",
+    "card2Text": "Ekşi mayalı hamurdan taş fırında pişen Napoliten ve Margherita pizzalar; günlük taze açılan el yapımı ravioli, tortellini ve imza İtalyan makarnaları.",
+    "card3Title": "Steak, Deniz Ürünleri & Akdeniz Mutfağı",
+    "card3Text": "Özenle dinlendirilmiş steak frites, ızgara etler, mevsimsel taze deniz ürünleri, gurme burgerler, Akdeniz salataları ve el yapımı İtalyan tatlıları.",
+    "card4Title": "Yalıncak Butik Otel & Konaklama",
+    "card4Text": "Trabzon Ortahisar Yalıncak sahilinde, Yomra ve Kaşüstü bölgesine ve havalimanına kolay ulaşım imkanı sunan, deniz manzaralı şık butik otel odaları.",
+    "menuLink": "Menü Kategorilerini İncele",
+    "reserveRestaurantLink": "Restoran Rezervasyonu Yap",
+    "reserveHotelLink": "Otel Odalarını & Fiyatları Gör"
+  },
+  "reviews": {
+    "kicker": "MİSAFİR DENEYİMLERİ",
+    "title": "Maison La Plage Yorumları",
+    "rev1Text": "Trabzon Yalıncak sahilinde denize sıfır muhteşem bir ambiyans. Taş fırın Margherita pizzası ve el yapımı raviolisi gerçek İtalyan standardında.",
+    "rev1Author": "Misafir Yorumu • Restoran & Akşam Yemeği",
+    "rev2Text": "Deniz manzaralı serpme kahvaltısı hem çok taze hem de sunumu çok şık. Ortahisar ve Yalıncak'ta kahvaltı ve kahve için en nezih mekan.",
+    "rev2Author": "Misafir Yorumu • Kahvaltı & Kafe",
+    "rev3Text": "Hem butik otel konaklaması hem de restoran hizmeti kusursuzdu. Havalimanına ve Yomra-Kaşüstü hattına yakınlığı büyük avantaj.",
+    "rev3Author": "Misafir Yorumu • Butik Otel & Konaklama"
+  },
+  "faq": {
+    "kicker": "MERAK EDİLENLER",
+    "title": "Sıkça Sorulan Sorular",
+    "q1": "Maison La Plage Trabzon nerede ve nasıl ulaşılır?",
+    "a1": "Maison La Plage; Yalıncak, Deniz 1 Nolu Sk No:5, 61080 Ortahisar/Trabzon adresinde, Yalıncak sahilinde denize sıfır konumda yer almaktadır. Trabzon Havalimanı'na, Ortahisar merkezine ve Yomra - Kaşüstü sahil hattına dakikalar içinde ulaşabilirsiniz.",
+    "q2": "Kahvaltı ve restoran çalışma saatleri nedir?",
+    "a2": "Restoran ve kafe bölümümüz haftanın her günü (Pazartesi - Pazar) 09:00 ile 00:00 saatleri arasında kesintisiz olarak serpme kahvaltı, öğle yemeği, akşam yemeği, tatlı ve kahve hizmeti sunmaktadır.",
+    "q3": "Maison La Plage menüsünde hangi yemekler var?",
+    "a3": "Menümüzde deniz manzaralı serpme ve dünya kahvaltıları, taş fırın Napoliten ve Margherita pizzalar, el yapımı ravioli ve tortellini çeşitleri, steak frites, deniz ürünleri, taze Akdeniz salataları, vegan alternatifler ve İtalyan tatlıları yer almaktadır.",
+    "q4": "Restoran ve butik otel rezervasyonu nasıl yapılır?",
+    "a4": "Web sitemizin üst menüsünde yer alan 'Restoran Rezervasyon' ve 'Otel' bağlantılarını kullanarak online rezervasyon yapabilir veya 0540 323 24 44 numaralı telefondan doğrudan bize ulaşabilirsiniz."
+  },
+  "menuPage": {
+    "kicker": "AKDENİZ & İTALYAN MUTFAĞI",
+    "title": "Maison La Plage Trabzon Menü",
+    "description": "Trabzon Yalıncak sahilinde yerel ve mevsimsel malzemelerle hazırlanan serpme kahvaltı, taş fırın Napoliten pizza, günlük el yapımı ravioli & makarna, steak ve deniz ürünleri seçkimiz.",
+    "pdfBtn": "Tam PDF Menüyü Aç (Fiyatlı)",
+    "reserveBtn": "Restoran Rezervasyonu",
+    "bottomNote": "Tüm ürünlerimizin güncel fiyatlarını ve içecek menümüzü görmek için PDF menümüzü görüntüleyebilirsiniz.",
+    "cat1Title": "Kahvaltı & Brunch",
+    "cat1Sub": "Her gün 09:00'dan itibaren Karadeniz manzarası eşliğinde",
+    "cat1Items": [
+      { "name": "Maison La Plage Serpme Kahvaltı", "desc": "Yöresel ve Akdeniz peynirleri, şarküteri seçkisi, taş fırın sıcak ekmekler, ev yapımı reçeller ve sahan lezzetleri." },
+      { "name": "Kruvasan & Egg Benedict Seçkisi", "desc": "Tereyağlı taze kruvasan, poşe yumurta, hollandaise sos ve avokadolu kahvaltı tabakları." },
+      { "name": "Sağlıklı Kahvaltı Kaseleri & Granola", "desc": "Mevsim meyveleri, chia, ev yapımı granola ve taze sıkım detoks suları." }
+    ],
+    "cat2Title": "Taş Fırın Napoliten Pizza",
+    "cat2Sub": "Uzun süre dinlendirilmiş ekşi mayalı hamur ve İtalyan domates sosu",
+    "cat2Items": [
+      { "name": "Pizza Margherita", "desc": "San Marzano domates sosu, taze suda mozzarella, fesleğen ve sızma zeytinyağı." },
+      { "name": "Pizza Napoletana & Burrata", "desc": "Taş fırında pişmiş ince hamur, taze burrata peyniri, roka ve çeri domates." },
+      { "name": "Trüflü & Mantarlı Gurme Pizza", "desc": "Karamelize orman mantarları, trüf yağı, mozzarella ve parmesan." }
+    ],
+    "cat3Title": "El Yapımı Ravioli & Makarna",
+    "cat3Sub": "Mutfağımızda her sabah günlük olarak açılan taze İtalyan makarnaları",
+    "cat3Items": [
+      { "name": "El Yapımı Ricotta & Ispanaklı Ravioli", "desc": "Taze ricotta dolgulu el yapımı ravioli, adaçaylı tereyağı sos ve parmesan." },
+      { "name": "Dana Yanak & Mantarlı Tortellini", "desc": "Ağır ateşte pişmiş dana dolgulu tortellini, krema ve trüf dokunuşu." },
+      { "name": "Deniz Ürünlü Linguine & Fettuccine", "desc": "Taze deniz ürünleri, sarımsak, fesleğen ve Akdeniz otlarıyla hazırlanan makarnalar." }
+    ],
+    "cat4Title": "Steak, Ana Yemekler & Deniz Ürünleri",
+    "cat4Sub": "Seçkin et kesimleri, ızgara deniz ürünleri ve gurme tabaklar",
+    "cat4Items": [
+      { "name": "Steak Frites & Dana Bonfile", "desc": "Özel sos eşliğinde ızgara bonfile, baharatlı ince patates kızartması ve mevsim yeşillikleri." },
+      { "name": "Akdeniz Usulü Izgara Deniz Ürünleri", "desc": "Mevsimin en taze balıkları, karides ve kalamar tabakları." },
+      { "name": "Maison Gurme Burger", "desc": "Brioche ekmeğinde ev yapımı burger köftesi, karamelize soğan ve cheddar." }
+    ],
+    "cat5Title": "Salatalar & Vegan Seçenekler",
+    "cat5Sub": "Yerel pazarlardan günlük seçilen taze yeşillikler ve kaseler",
+    "cat5Items": [
+      { "name": "Burrata & Akdeniz Salatası", "desc": "Taze burrata, salkım domates, fesleğenli pesto ve balzamik glazür." },
+      { "name": "Klasik & Tavuklu Sezar Salata", "desc": "Marul yaprakları, kruton, parmesan dilimleri ve imza Sezar sos." },
+      { "name": "Kinoa & Avokadolu Vegan Kase", "desc": "Kinoa, avokado, fırınlanmış mevsim sebzeleri ve limonlu zeytinyağı sosu." }
+    ],
+    "cat6Title": "İtalyan Tatlıları & Nitelikli Kahve",
+    "cat6Sub": "Yemek sonrası tatlı bir kapanış ve baristamızdan özel kahveler",
+    "cat6Items": [
+      { "name": "Klasik İtalyan Tiramisu", "desc": "Mascarpone kreması, espresso ile ıslatılmış kedi dili ve kakao." },
+      { "name": "San Sebastian & Meyveli Tatlılar", "desc": "Akışkan kıvamlı cheesecake, Belçika çikolatası ve mevsim meyveleri." },
+      { "name": "Espresso Bar & İmza Mokteyller", "desc": "3. nesil demleme kahveler, ev yapımı limonatalar ve ferahlatıcı içecekler." }
+    ]
   },
   "footer": {
     "addressTitle": "ADRES",

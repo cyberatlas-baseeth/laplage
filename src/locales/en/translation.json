@@ -11,13 +11,102 @@
   "hero": {
     "title": "Made with love.",
     "subtitle": "Quality you can taste.",
-    "cta": "View Menu"
+    "cta": "View PDF Menu",
+    "menuPageBtn": "Signature Menu"
   },
   "about": {
     "tagline": "simply",
     "taglineRight": "delicious",
     "title": "A Fresh and Seasonal Cuisine",
     "btn": "About Us"
+  },
+  "experiences": {
+    "kicker": "ON YALINCAK BEACH, TRABZON",
+    "title": "Restaurant, Cafe & Boutique Hotel Experience",
+    "subtitle": "Located directly on the Yalıncak seafront in Ortahisar, Trabzon; offering an elegant atmosphere from morning sea-view breakfast to Italian fine dining and boutique hotel accommodation.",
+    "card1Title": "Seafront Breakfast & Specialty Cafe",
+    "card1Text": "Rich Turkish spread breakfast, fresh croissants, eggs benedict, healthy bowls, and artisan coffee right by the Black Sea shore in Yalıncak.",
+    "card2Title": "Stone-Baked Pizza & Handmade Ravioli",
+    "card2Text": "Sourdough Neapolitan and Margherita pizzas baked in a stone oven, alongside daily handmade ravioli, tortellini, and authentic Italian pasta.",
+    "card3Title": "Steak, Seafood & Mediterranean Dining",
+    "card3Text": "Prime steak frites, grilled meats, fresh seasonal seafood, gourmet burgers, Mediterranean salads, vegan options, and Italian desserts.",
+    "card4Title": "Yalıncak Boutique Hotel & Stay",
+    "card4Text": "Stylish sea-view boutique hotel rooms in Yalıncak, Ortahisar—minutes away from Trabzon Airport and the Yomra–Kaşüstü coastal district.",
+    "menuLink": "Explore Menu Categories",
+    "reserveRestaurantLink": "Book a Table",
+    "reserveHotelLink": "Check Hotel Rooms & Rates"
+  },
+  "reviews": {
+    "kicker": "GUEST EXPERIENCES",
+    "title": "Maison La Plage Reviews",
+    "rev1Text": "A stunning seafront ambiance on Yalıncak beach in Trabzon. The stone-baked Margherita pizza and handmade ravioli are truly authentic Italian.",
+    "rev1Author": "Guest Review • Fine Dining & Dinner",
+    "rev2Text": "The sea-view breakfast is super fresh and beautifully presented. Easily the most refined cafe and restaurant in Ortahisar and Yalıncak.",
+    "rev2Author": "Guest Review • Breakfast & Cafe",
+    "rev3Text": "Both the boutique hotel stay and the restaurant service were flawless. Being close to Trabzon Airport and Yomra is a huge plus.",
+    "rev3Author": "Guest Review • Boutique Hotel Stay"
+  },
+  "faq": {
+    "kicker": "FREQUENTLY ASKED QUESTIONS",
+    "title": "Visitor Guide & FAQ",
+    "q1": "Where is Maison La Plage located in Trabzon?",
+    "a1": "Maison La Plage is located right on the seafront at Yalıncak, Deniz 1 Nolu Sk No:5, 61080 Ortahisar/Trabzon, just minutes away from Trabzon Airport, Ortahisar center, and Yomra/Kaşüstü.",
+    "q2": "What are your breakfast and restaurant opening hours?",
+    "a2": "Our restaurant and cafe are open every day (Monday – Sunday) from 09:00 AM to 12:00 AM (midnight), serving breakfast, brunch, lunch, dinner, desserts, and specialty coffee.",
+    "q3": "What dishes are served on the Maison La Plage menu?",
+    "a3": "Our menu features sea-view Turkish and international breakfasts, stone-baked Neapolitan and Margherita pizzas, handmade ravioli and tortellini, steak frites, fresh seafood, vegan and Mediterranean salads, and artisan desserts.",
+    "q4": "How can I make a restaurant or boutique hotel reservation?",
+    "a4": "You can book online anytime via the 'Restaurant Reservations' and 'Hotel' links in the top navigation bar, or reach us directly by phone at +90 540 323 24 44."
+  },
+  "menuPage": {
+    "kicker": "MEDITERRANEAN & ITALIAN CUISINE",
+    "title": "Maison La Plage Trabzon Menu",
+    "description": "Prepared daily on the Yalıncak coast of Trabzon using fresh local and seasonal ingredients: sea-view breakfast, stone-baked Neapolitan pizza, handmade ravioli & pasta, steak, and seafood.",
+    "pdfBtn": "Open Full PDF Menu (With Prices)",
+    "reserveBtn": "Book a Table",
+    "bottomNote": "View our full digital PDF menu for current prices and our complete beverage list.",
+    "cat1Title": "Breakfast & Brunch",
+    "cat1Sub": "Served daily from 09:00 AM with panoramic Black Sea views",
+    "cat1Items": [
+      { "name": "Maison La Plage Spread Breakfast", "desc": "Artisan local and Mediterranean cheeses, charcuterie, warm stone-oven breads, homemade jams, and hot skillet dishes." },
+      { "name": "Croissants & Eggs Benedict", "desc": "Fresh butter croissants, poached eggs, hollandaise sauce, and avocado breakfast plates." },
+      { "name": "Healthy Breakfast Bowls & Granola", "desc": "Seasonal fruits, chia seeds, homemade granola, and fresh detox juices." }
+    ],
+    "cat2Title": "Stone-Baked Neapolitan Pizza",
+    "cat2Sub": "Long-fermented sourdough crust and San Marzano tomato sauce",
+    "cat2Items": [
+      { "name": "Pizza Margherita", "desc": "San Marzano tomato sauce, fresh mozzarella, sweet basil, and extra virgin olive oil." },
+      { "name": "Pizza Napoletana & Burrata", "desc": "Stone-baked thin crust topped with creamy burrata cheese, wild arugula, and cherry tomatoes." },
+      { "name": "Truffle & Wild Mushroom Pizza", "desc": "Caramelized forest mushrooms, truffle oil, mozzarella, and aged parmesan." }
+    ],
+    "cat3Title": "Handmade Ravioli & Pasta",
+    "cat3Sub": "Freshly rolled in our kitchen every morning",
+    "cat3Items": [
+      { "name": "Handmade Ricotta & Spinach Ravioli", "desc": "Fresh ricotta-filled ravioli tossed in sage butter sauce and parmesan." },
+      { "name": "Braised Beef & Mushroom Tortellini", "desc": "Slow-cooked beef tortellini with delicate cream and truffle essence." },
+      { "name": "Seafood Linguine & Fettuccine", "desc": "Fresh catch seafood pasta with garlic, basil, and Mediterranean herbs." }
+    ],
+    "cat4Title": "Steak, Mains & Seafood",
+    "cat4Sub": "Prime cuts, grilled seafood, and signature plates",
+    "cat4Items": [
+      { "name": "Steak Frites & Beef Tenderloin", "desc": "Grilled tenderloin with signature sauce, seasoned crispy fries, and greens." },
+      { "name": "Mediterranean Grilled Seafood", "desc": "Daily fresh fish, jumbo shrimp, and calamari plates." },
+      { "name": "Maison Gourmet Burger", "desc": "House-ground beef patty on a brioche bun with caramelized onions and cheddar." }
+    ],
+    "cat5Title": "Salads & Vegan Bowls",
+    "cat5Sub": "Crisp greens and wholesome plant-based bowls",
+    "cat5Items": [
+      { "name": "Burrata & Mediterranean Salad", "desc": "Creamy burrata, vine-ripened tomatoes, basil pesto, and balsamic glaze." },
+      { "name": "Classic & Grilled Chicken Caesar Salad", "desc": "Crisp romaine lettuce, artisan croutons, parmesan shavings, and house Caesar dressing." },
+      { "name": "Quinoa & Avocado Vegan Bowl", "desc": "Tri-color quinoa, avocado, roasted seasonal vegetables, and lemon-olive oil dressing." }
+    ],
+    "cat6Title": "Italian Desserts & Specialty Coffee",
+    "cat6Sub": "Handcrafted sweet endings and third-wave espresso bar",
+    "cat6Items": [
+      { "name": "Classic Italian Tiramisu", "desc": "Mascarpone cream, espresso-soaked savoiardi, and fine cocoa." },
+      { "name": "San Sebastian Cheesecake", "desc": "Creamy Basque cheesecake served with Belgian chocolate and seasonal berries." },
+      { "name": "Specialty Coffee & Signature Mocktails", "desc": "Artisan espresso drinks, homemade lemonades, and refreshing coastal blends." }
+    ]
   },
   "footer": {
     "addressTitle": "ADDRESS",
